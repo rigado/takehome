@@ -1,0 +1,6 @@
+github.com/flynn/go-shlex v0.0.0-20150515145356-3f9db97f8568 h1:BHsljHzVlRcyQhjrss6TZTdY2VfCqZPbv5k3iBFa2ZQ=
+github.com/flynn/go-shlex v0.0.0-20150515145356-3f9db97f8568/go.mod h1:xEzjJPgXI435gkrCt3MPfRiAkVrwSbHsst4LCFVfpJc=
+github.com/ionrock/procs v0.0.0-20230108235056-4ba188ce3ead h1:HymphmYgW0oFMQctBj375exWgT0Ke+5EMPKpIYVWGkk=
+github.com/ionrock/procs v0.0.0-20230108235056-4ba188ce3ead/go.mod h1:ZANLPvV4k0ZsE7hitAAQHZ8vmst7X8wnmuTi4QS1gYw=
+github.com/pelletier/go-toml v1.9.5 h1:4yBQzkHv+7BHq2PQUZF3Mx0IYxG7LsP222s7Agd3ve8=
+github.com/pelletier/go-toml v1.9.5/go.mod h1:u1nR/EPcESfeI/szUZKdtJ0xRNbUoANCkoOuaOx1Y+c=

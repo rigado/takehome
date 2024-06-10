@@ -1,0 +1,24 @@
+# Snapcraft-specific files
+prime/
+stage/
+parts/
+.snap/
+*.snap
+
+# Vagrant
+.vagrant/
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*~
+
+# System files
+.DS_Store
+Thumbs.db
+*.bak
+
+# Other
+*.backup
+

@@ -1,0 +1,19 @@
+name: rigado-takehome
+base: core20 # the base snap is the execution environment for this snap
+version: '0.1' # just for humans, typically '1.2+git' or '1.3.2'
+summary: A Rigado takehome technical exercise in snap form
+description: |
+  A simple snap, built in golang.
+
+grade: devel # must be 'stable' to release into candidate/stable channels
+confinement: devmode # use 'strict' once you have the right plugs and slots
+
+apps:
+  service:
+    command: bin/service
+    daemon: simple
+
+parts:
+  service:
+    plugin: go
+    source: .

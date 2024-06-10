@@ -1,0 +1,10 @@
+#!/bin/sh
+
+
+ENDPOINT="$(snapctl get endpoint)"
+
+if [ -z "$ENDPOINT" ]; then
+    echo "ENDPOINT variable is empty"
+else
+    echo "endpoint = \"$ENDPOINT\"" > $SNAP_DATA/config.toml
+fi
